@@ -2,14 +2,21 @@
     width: 150px;
     height: 150px;
 }
-.img-responsive:hover {
-    width: 200px;
-    height: 200px;
-}
+
 .desk {
     position: absolute;
+    top:0;
+    left:0;
+    border: 5px solid black;
     color: white;
+    opacity: 0;
+    width: 150px;
+    height:150px;
+    background-color: grey;
+    
 }
-.project-pic:hover h6{
-    color: black;
+.project-pic:hover .desk{
+    color:white;
+    opacity: .5;
+
 }
