@@ -6,3 +6,10 @@
     width: 200px;
     height: 200px;
 }
+.desk {
+    position: absolute;
+    color: white;
+}
+.project-pic:hover h6{
+    color: black;
+}
